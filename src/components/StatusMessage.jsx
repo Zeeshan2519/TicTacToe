@@ -14,7 +14,7 @@ const StatusMessage = ({ winner, current }) => {
       )}
       {!winner && !noMovesLeft && (
         <>
-          `Next Player is{' '}
+          Next Player is{' '}
           <span className={current.isXNext ? 'text-green' : 'text-orange'}>
             {current.isXNext ? 'X' : 'O'}
           </span>
